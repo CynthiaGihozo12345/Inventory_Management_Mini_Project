@@ -42,7 +42,7 @@ class Admin {
             header("Location: ../dashboard/");
             exit();
         } else {
-            return "Invalid username or password.";
+            return "Invalid username or password try to add correct one.";
         }
     }
 
